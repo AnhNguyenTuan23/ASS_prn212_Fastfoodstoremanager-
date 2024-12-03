@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="PRN212_ProjectWPF.StaticReport"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PRN212_ProjectWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="White">
+        <DataGrid Grid.Row="2" x:Name="dgStaticReport" AutoGenerateColumns="False" CanUserAddRows="False" SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="*" Header="Order Id" Binding="{Binding OrderId}" />
+                <DataGridTextColumn Width="Auto" Header="Dish Name" Binding="{Binding Dish.DishName}" />
+                <DataGridTextColumn Width="*" Header="Quantity" Binding="{Binding Quantity}" />
+                <DataGridTextColumn Width="*" Header="Table Number" Binding="{Binding Table.TableNumber}" />
+                <DataGridTextColumn Width="*" Binding="{Binding Dish.Price}" Header="Price" />
+                <DataGridTextColumn Width="*" Binding="{Binding Order.EndDate}" Header="End Date" />
+                <DataGridTextColumn Width="*" Binding="{Binding Order.StatusDetail}" Header="Status" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

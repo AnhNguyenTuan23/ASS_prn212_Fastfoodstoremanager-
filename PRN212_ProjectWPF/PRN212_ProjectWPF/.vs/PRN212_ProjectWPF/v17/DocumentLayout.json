@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\HOC TAP\\KI 5(2)\\prn212\\Project_PRN212\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A05779-BAC9-44AC-83AC-1F7FA034FA84}|PRN212_ProjectWPF\\PRN212_ProjectWPF.csproj|c:\\users\\admin\\documents\\hoc tap\\ki 5(2)\\prn212\\project_prn212\\prn212_projectwpf\\prn212_projectwpf\\prn212_projectwpf\\tablemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A05779-BAC9-44AC-83AC-1F7FA034FA84}|PRN212_ProjectWPF\\PRN212_ProjectWPF.csproj|solutionrelative:prn212_projectwpf\\tablemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A05779-BAC9-44AC-83AC-1F7FA034FA84}|PRN212_ProjectWPF\\PRN212_ProjectWPF.csproj|c:\\users\\admin\\documents\\hoc tap\\ki 5(2)\\prn212\\project_prn212\\prn212_projectwpf\\prn212_projectwpf\\prn212_projectwpf\\orderhistory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A05779-BAC9-44AC-83AC-1F7FA034FA84}|PRN212_ProjectWPF\\PRN212_ProjectWPF.csproj|solutionrelative:prn212_projectwpf\\orderhistory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A05779-BAC9-44AC-83AC-1F7FA034FA84}|PRN212_ProjectWPF\\PRN212_ProjectWPF.csproj|c:\\users\\admin\\documents\\hoc tap\\ki 5(2)\\prn212\\project_prn212\\prn212_projectwpf\\prn212_projectwpf\\prn212_projectwpf\\order.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A05779-BAC9-44AC-83AC-1F7FA034FA84}|PRN212_ProjectWPF\\PRN212_ProjectWPF.csproj|solutionrelative:prn212_projectwpf\\order.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TableManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\HOC TAP\\KI 5(2)\\prn212\\Project_PRN212\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\TableManagement.xaml.cs",
+              "RelativeDocumentMoniker": "PRN212_ProjectWPF\\TableManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\HOC TAP\\KI 5(2)\\prn212\\Project_PRN212\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\TableManagement.xaml.cs",
+              "RelativeToolTip": "PRN212_ProjectWPF\\TableManagement.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T01:43:46.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\HOC TAP\\KI 5(2)\\prn212\\Project_PRN212\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\Order.xaml.cs",
+              "RelativeDocumentMoniker": "PRN212_ProjectWPF\\Order.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\HOC TAP\\KI 5(2)\\prn212\\Project_PRN212\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\Order.xaml.cs",
+              "RelativeToolTip": "PRN212_ProjectWPF\\Order.xaml.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAcwL4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T01:39:22.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderHistory.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\HOC TAP\\KI 5(2)\\prn212\\Project_PRN212\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\OrderHistory.xaml.cs",
+              "RelativeDocumentMoniker": "PRN212_ProjectWPF\\OrderHistory.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\HOC TAP\\KI 5(2)\\prn212\\Project_PRN212\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\PRN212_ProjectWPF\\OrderHistory.xaml.cs",
+              "RelativeToolTip": "PRN212_ProjectWPF\\OrderHistory.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDwAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T01:38:27.57Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

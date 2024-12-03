@@ -1,0 +1,38 @@
+﻿<Window x:Class="PRN212_ProjectWPF.DishDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PRN212_ProjectWPF"
+        mc:Ignorable="d"
+        Title="DishDialog" Height="500" Width="450">
+    <StackPanel>
+        <StackPanel.Resources>
+            <Style TargetType="TextBox">
+                <Setter Property="Padding" Value="5"/>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="Margin" Value="0,10,0,0"/>
+            </Style>
+        </StackPanel.Resources>
+        <Label Content="Dish name"/>
+        <TextBox x:Name="txbDishName" Text="{Binding DishObject.DishName}"/>
+        <Label Content="Price"/>
+        <TextBox x:Name="txbPrice" Text="{Binding DishObject.Price}"/>
+        <Label Content="Total number"/>
+        <TextBox x:Name="txbTotalNumber" Text="{Binding DishObject.TotalNumberForBranch}"/>
+        <WrapPanel Margin="0,10,0,0">
+            <RadioButton x:Name="rdbActive" GroupName="rdbStatus" Content="Active" FontWeight="Bold"/>
+            <RadioButton  x:Name="rdbDelete"  GroupName="rdbStatus" Content="Delete" FontWeight="Bold"/>
+        </WrapPanel>
+        <Button x:Name="btnUploadImage" Margin="10" Content="Upload Image" Click="btnUploadImage_Click"/>
+        <Image x:Name="imgDish" Margin="10" Source="{Binding SourceImage}" Height="100"/>
+        <WrapPanel HorizontalAlignment="Center">
+            <Button x:Name="btnSubmit" Content="{Binding Action}" Width="100" Click="btnSubmit_Click" ></Button>
+            <Button x:Name="btnClose" Content="Close" Width="100" Click="btnClose_Click"></Button>
+        </WrapPanel>
+
+    </StackPanel>
+</Window>
